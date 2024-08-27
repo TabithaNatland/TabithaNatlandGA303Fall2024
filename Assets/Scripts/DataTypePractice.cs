@@ -56,7 +56,11 @@ public class DataTypePractice : MonoBehaviour // class declaration
     // Update is called once per frame
     void Update()
     {
-       // Debug.Log(charizard)
+       // Debug.Log(DisplayCharizard)
     }
 
+    void DisplayCharizard() //This is a function that can be called in other areas that will run the code in here at the place it was called.
+    {
+        Debug.Log(charizard);
+    }
 }

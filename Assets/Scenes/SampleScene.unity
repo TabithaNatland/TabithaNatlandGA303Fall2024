@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 590096727}
   - component: {fileID: 590096726}
   - component: {fileID: 590096725}
-  - component: {fileID: 590096724}
+  - component: {fileID: 590096729}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -139,34 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &590096724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590096723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2018ef322016ce54194a05c33325de28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  num1: 0
-  num2: 0
-  num3: 0
-  num4: 0
-  num5: 0
-  num6: 3.1415
-  num7: 3.14159265
-  isProgramingHard: 1
-  charizard: 97
-  blastoise: 98
-  venusaur: 99
-  monsters: Pokemon is cool, but so is Undertale, so I wanted to refer to it here
-    anyway, but now this is getting long, but I'll show that it's ok to do this by
-    showing something else shortly.
-  light: {fileID: 0}
-  transform: {fileID: 0}
 --- !u!136 &590096725
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -257,6 +229,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &590096729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590096723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166900f2abb3a014f8cbb5cb5f5d01fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soft: 107
+  warm: 105
+  little: 116
+  ball: 101
+  fur: 110
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,7 +443,7 @@ GameObject:
   - component: {fileID: 1092134849}
   - component: {fileID: 1092134848}
   - component: {fileID: 1092134847}
-  - component: {fileID: 1092134846}
+  - component: {fileID: 1092134851}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -462,34 +451,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1092134846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1092134845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2018ef322016ce54194a05c33325de28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  num1: 0
-  num2: 0
-  num3: 0
-  num4: 0
-  num5: 0
-  num6: 3.1415
-  num7: 3.14159265
-  isProgramingHard: 1
-  charizard: 97
-  blastoise: 98
-  venusaur: 99
-  monsters: Pokemon is cool, but so is Undertale, so I wanted to refer to it here
-    anyway, but now this is getting long, but I'll show that it's ok to do this by
-    showing something else shortly.
-  light: {fileID: 0}
-  transform: {fileID: 0}
 --- !u!65 &1092134847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -578,6 +539,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1092134851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092134845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d9a00d0d068cd40b222fd87e4746cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  please: I don't think I understand scripting.
+  help: I am however, trying my very best.
+  me: Hopefully by the end of the semester this will be a little easier.
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
